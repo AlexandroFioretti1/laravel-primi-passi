@@ -21,3 +21,12 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+Route::get('/contact', function () {
+    $data = [
+        'assistenza' => 'assistenza@tutti.it',
+        'numero' => '3996589592',
+        'sitoweb' => 'www.sonounsitoweb.it',
+    ];
+    return view('contact', $data);
+});

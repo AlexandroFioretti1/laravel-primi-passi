@@ -12,7 +12,6 @@
 <body>
 
     <header class="text-center my-5 bg-dark text-light">
-        <h1>Welocome to Valorant</h1>
         <nav>
             <ul>
                 <li>
@@ -29,11 +28,11 @@
     <main>
         <div class="container text-center">
             <div class="card-header">
-                <h2>{{$gioco}}</h2>
+                <h2>{{$assistenza}}</h2>
             </div>
             <div class="card-body">
-                <span>{{$tipo}}</span>
-                <span>{{$limiteEta}}</span>
+                <span>{{$numero}}</span>
+                <span>{{$sitoweb}}</span>
             </div>
         </div>
     </main>
