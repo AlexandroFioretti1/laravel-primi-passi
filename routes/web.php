@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = [
+        'gioco' => 'Valorant',
+        'tipo' => 'Fps',
+        'limiteEta' => '18+',
+    ];
+    return view('home', $data);
 });
